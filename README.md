@@ -25,7 +25,19 @@
 ## Local - 내 컴퓨터 
 - [x] 1. `git init` - 프로젝트를 git으로 관리 한다는 뜻
 - [x] 2. `git ignore` - git으로 관리 하지 않는 파일들
-  - [ ] 2.1. `touch .gitignore` 
-- [ ] 3. git add - `git add .`
-- [ ] 4. git commit - `git commit -m "메세지"`
-- [ ] 5. 내 로컬 git이랑 <----> github 레포지토리랑 연결한다.
+  - [x] 2.1. `touch .gitignore` 
+- [x] 3. git add - `git add .`
+- [x] 4. git commit - `git commit -m "메세지"`
+- [x] 5. 내 로컬 git이랑 <----> github 레포지토리랑 연결한다.
+- [x] 6. `git push` - 내 컴퓨터에서 github레포티토리로 파일을 올린다.
+  
+<br />
+
+  ## GitHub - 클라우드
+- [x] 1. github로 가서 repository를 만든다.
+- [x] 2. 레포지토리 만들고 아래 커맨드 복복 후 local에서 git push 하면되는데 이미 커맨드에 있다. 
+  ```bash
+  git remote add origin git@github.com:jyh7a/player-curd-mvc-pattern.git
+  git branch -M main
+  git push -u origin main
+  ```
